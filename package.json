@@ -1,0 +1,30 @@
+{
+  "name": "vue-cli-plugin-go-webview",
+  "version": "0.0.1",
+  "dependencies": {
+    "cross-spawn": "^6.0.5",
+    "file-system": "^2.2.2"
+  },
+  "description": "vue-cli 3.x plugin to setup go-webview applications",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plimbore/vue-cli-plugin-go-webview.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-cli",
+    "vue-cli-3",
+    "go",
+    "golang",
+    "gopher",
+    "webview",
+    "plugin"
+  ],
+  "author": "plimbore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plimbore/vue-cli-plugin-go-webview/issues"
+  },
+  "homepage": "https://github.com/plimbore/vue-cli-plugin-go-webview#readme"
+}
