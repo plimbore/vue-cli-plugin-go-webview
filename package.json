@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-go-webview",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "cross-spawn": "^6.0.5",
     "file-system": "^2.2.2"
