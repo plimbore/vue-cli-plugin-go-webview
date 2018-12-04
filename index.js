@@ -70,6 +70,7 @@ module.exports = (api, options) => {
         ], {
           cwd: './go-src',
           env: process.env,
+          shell: true,
           stdio: 'inherit', // pipe to console
           encoding: 'utf-8'
         })

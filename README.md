@@ -8,6 +8,27 @@ go-webview Plugin for [Vue CLI 3.x](https://github.com/vuejs/vue-cli)
 - [go](https://golang.org/)
 - [go webview](https://github.com/zserge/webview)
 - [go-bindata-assetfs](https://github.com/elazarl/go-bindata-assetfs)
+- [go echo](https://github.com/labstack/echo) - [Docs](https://echo.labstack.com/guide/installation)
+- [go echo-static](https://github.com/Code-Hex/echo-static)
+
+```sh
+# Assuming you have go and nodejs installed
+# Install vue-cli-3
+$ yarn global add @vue/cli
+# Create vue-cli-3 project
+$ vue create myproject
+$ cd myproject
+
+# Install go dependencies
+# Install go webview
+$ go get github.com/zserge/webview
+# Install go-bindata-assetfs
+$ go get github.com/jteeuwen/go-bindata/...
+$ go get github.com/elazarl/go-bindata-assetfs/...
+# Install echo server
+$ go get -u github.com/labstack/echo/...
+$ go get go get github.com/Code-Hex/echo-static
+```
 
 ## Install
 
@@ -22,8 +43,8 @@ $ vue add go-webview
 - go-src/listen_echo_server.go: Listen and serve using echo server
 - go-src/listen_net_http_server.go: Listen and serve using net/http server
 - package.json:
-    -- Key 'go-webview' with plugin configuration values
-    -- Script 'go-build'
+-- Key 'go-webview' with plugin configuration values
+-- Script 'go-build'
 - .gitignore: Ignore go build directory, binaries, bindata go file 
 
 ## Invoke
